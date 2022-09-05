@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="Imagenes/Vector.png" alt="Loto detra a"></a>
+    </header>
+    <main>
+        <section class="section1">
+            <textarea class="encrip-texto" cols="28" rows="5" placeholder="Ingrese su texto aquí"></textarea>
+            <div id="div-desaparece">
+                <h6 class="aclaración">Solo debe ingresar letras minúsculas y sin acentos.</h6>
+            </div>
+            <div class="botones">
+                <button class="encriptar" onclick="botonEncripta()">
+                    Encriptar
+                </button>
+                <button class="desencriptar" onclick="botonDesencripta()">
+                    Desencriptar
+                </button>
+            </div>
+        </section>        
+        <section class="mensaje-box">
+            <textarea class="mensaje" cols="18" rows="6"></textarea>
+            <button class="copiar" onclick="copiar()">Copiar</button>
+        </section>        
+    </main>
+    <footer>
+        <p class="programador">&#8482 Created by cecaji - 2022</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
